@@ -7,7 +7,7 @@ Sistema de gerenciamento de alimentos em geladeira, permitindo cadastro, listage
 ![H2 Database](https://img.shields.io/badge/H2-Database-blue?style=flat-square&logo=h2)
 ![Maven](https://img.shields.io/badge/Maven-Build-C71A36?style=flat-square&logo=apachemaven)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey?style=flat-square)
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow?style=flat-square)
+![Status](https://img.shields.io/badge/status-pronto-green?style=flat-square)
 
 ---
 
