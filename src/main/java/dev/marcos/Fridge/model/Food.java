@@ -1,0 +1,57 @@
+package dev.marcos.Fridge.model;
+
+import jakarta.persistence.*;
+
+import java.time.LocalDate;
+
+@Entity
+@Table(name = "food_table")
+public class Food {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    private String name;
+    private LocalDate experationDate;
+    private Integer quantity;
+
+    public Food(){}
+    public Food(Long id, String name, LocalDate experationDate, Integer quantity) {
+        this.id = id;
+        this.name = name;
+        this.experationDate = experationDate;
+        this.quantity = quantity;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Integer getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(Integer quantity) {
+        this.quantity = quantity;
+    }
+
+    public LocalDate getExperationDate() {
+        return experationDate;
+    }
+
+    public void setExperationDate(LocalDate experationDate) {
+        this.experationDate = experationDate;
+    }
+}
